@@ -1,0 +1,54 @@
+﻿@model QLTV.Models.MuonTra
+
+@{
+    ViewBag.Title = "Thêm Mượn Trả";
+}
+
+<h2>Thêm Mượn Trả</h2>
+
+@if (ViewBag.ThongBao != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ThongBao
+    </div>
+}
+
+<form asp-action="ThemMuonTra" method="post">
+    <div class="form-group">
+        <label for="MaMuonTra">Mã Mượn Trả</label>
+        <input type="text" asp-for="MaMuonTra" class="form-control" />
+        <span asp-validation-for="MaMuonTra" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="MaDocGia">Độc Giả</label>
+        <select asp-for="MaDocGia" class="form-control" asp-items="ViewBag.MaDocGia"></select>
+        <span asp-validation-for="MaDocGia" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="MaSach">Sách</label>
+        <select asp-for="MaSach" class="form-control" asp-items="ViewBag.MaSach"></select>
+        <span asp-validation-for="MaSach" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="MaNhanVien">Nhân Viên</label>
+        <select asp-for="MaNhanVien" class="form-control" asp-items="ViewBag.MaNhanVien"></select>
+        <span asp-validation-for="MaNhanVien" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="NgayMuon">Ngày Mượn</label>
+        <input type="date" asp-for="NgayMuon" class="form-control" />
+        <span asp-validation-for="NgayMuon" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="NgayTra">Ngày Trả</label>
+        <input type="date" asp-for="NgayTra" class="form-control" />
+        <span asp-validation-for="NgayTra" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm</button>
+</form>
