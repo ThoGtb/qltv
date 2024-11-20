@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using QLTV.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<QLTVContext>(option => option.UseSqlServer(
+            builder.Configuration.GetConnectionString("conn")));
 
 var app = builder.Build();
 

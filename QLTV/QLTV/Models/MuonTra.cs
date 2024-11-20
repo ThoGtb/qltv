@@ -17,5 +17,6 @@ namespace QLTV.Models
         public virtual DocGium? MaDocGiaNavigation { get; set; }
         public virtual NhanVien? MaNhanVienNavigation { get; set; }
         public virtual Sach? MaSachNavigation { get; set; }
+       
     }
 }

@@ -8,8 +8,8 @@ namespace QLTV.Models
 {
     public partial class QLTVContext : DbContext
     {
-        private readonly IEnumerable DocGias;
-        private readonly IEnumerable Sachs;
+        internal readonly IEnumerable DocGias;
+        internal readonly IEnumerable Sachs;
 
         public QLTVContext()
         {

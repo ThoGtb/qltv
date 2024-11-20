@@ -1,0 +1,38 @@
+﻿@model IEnumerable<QLTV.Models.MuonTra>
+
+<h1>Danh Sách Mượn Trả</h1>
+
+<a asp-action="ThemMuonTra" class="btn btn-primary">Thêm Mượn Trả</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã Mượn Trả</th>
+            <th>Mã Độc Giả</th>
+            <th>Mã Sách</th>
+            <th>Mã Nhân Viên</th>
+            <th>Ngày Mượn</th>
+            <th>Ngày Trả</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaMuonTra</td>
+                <td>@item.MaDocGia</td>
+                <td>@item.MaSach</td>
+                <td>@item.MaNhanVien</td>
+                <td>@item.NgayMuon?.ToString("dd/MM/yyyy")</td>
+                <td>@item.NgayTra?.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="CapNhatMuonTra" asp-route-maMuonTra="@item.MaMuonTra" class="btn btn-warning">Sửa</a>
+                    <a asp-action="XoaMuonTra" asp-route-maMuonTra="@item.MaMuonTra" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?')">Xóa</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\views\\home\\themmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\views\\home\\themmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\views\\home\\danhsachmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\views\\home\\danhsachmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QLTV\\QLTV\\Models\\QLTVContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLTV\\Models\\QLTVContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\views\\home\\themmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\views\\home\\themmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\models\\muontra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\models\\muontra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\views\\home\\capnhatmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\views\\home\\capnhatmuontra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\models\\docgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\models\\docgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|d:\\qltv\\qltv\\models\\qltvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2877E388-AF99-4EA7-9BF3-A183E6C68753}|QLTV\\QLTV.csproj|solutionrelative:qltv\\models\\qltvcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QLTV\\QLTV\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLTV\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\QLTV\\QLTV\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "QLTV\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DanhSachMuonTra.cshtml",
+              "DocumentMoniker": "D:\\QLTV\\QLTV\\Views\\Home\\DanhSachMuonTra.cshtml",
+              "RelativeDocumentMoniker": "QLTV\\Views\\Home\\DanhSachMuonTra.cshtml",
+              "ToolTip": "D:\\QLTV\\QLTV\\Views\\Home\\DanhSachMuonTra.cshtml",
+              "RelativeToolTip": "QLTV\\Views\\Home\\DanhSachMuonTra.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T10:39:47.967Z",
+              "WhenOpened": "2024-11-20T14:52:02.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocGium.cs",
+              "DocumentMoniker": "D:\\QLTV\\QLTV\\Models\\DocGium.cs",
+              "RelativeDocumentMoniker": "QLTV\\Models\\DocGium.cs",
+              "ToolTip": "D:\\QLTV\\QLTV\\Models\\DocGium.cs",
+              "RelativeToolTip": "QLTV\\Models\\DocGium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:36:52.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CapNhatMuonTra.cshtml",
+              "DocumentMoniker": "D:\\QLTV\\QLTV\\Views\\Home\\CapNhatMuonTra.cshtml",
+              "RelativeDocumentMoniker": "QLTV\\Views\\Home\\CapNhatMuonTra.cshtml",
+              "ToolTip": "D:\\QLTV\\QLTV\\Views\\Home\\CapNhatMuonTra.cshtml",
+              "RelativeToolTip": "QLTV\\Views\\Home\\CapNhatMuonTra.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:10:11.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\QLTV\\QLTV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLTV\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\QLTV\\QLTV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLTV\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T13:56:37.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QLTV\\QLTV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLTV\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\QLTV\\QLTV\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "QLTV\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwHUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T14:59:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ThemMuonTra.cshtml",
               "DocumentMoniker": "D:\\QLTV\\QLTV\\Views\\Home\\ThemMuonTra.cshtml",
               "RelativeDocumentMoniker": "QLTV\\Views\\Home\\ThemMuonTra.cshtml",
               "ToolTip": "D:\\QLTV\\QLTV\\Views\\Home\\ThemMuonTra.cshtml",
               "RelativeToolTip": "QLTV\\Views\\Home\\ThemMuonTra.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T10:19:14.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MuonTra.cs",
-              "DocumentMoniker": "D:\\QLTV\\QLTV\\Models\\MuonTra.cs",
-              "RelativeDocumentMoniker": "QLTV\\Models\\MuonTra.cs",
-              "ToolTip": "D:\\QLTV\\QLTV\\Models\\MuonTra.cs",
-              "RelativeToolTip": "QLTV\\Models\\MuonTra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T10:18:49.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\QLTV\\QLTV\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "QLTV\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\QLTV\\QLTV\\Controllers\\HomeController.cs",
               "RelativeToolTip": "QLTV\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA7wBsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAtwLcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T09:55:41.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "QLTVContext.cs",
               "DocumentMoniker": "D:\\QLTV\\QLTV\\Models\\QLTVContext.cs",
               "RelativeDocumentMoniker": "QLTV\\Models\\QLTVContext.cs",
               "ToolTip": "D:\\QLTV\\QLTV\\Models\\QLTVContext.cs",
               "RelativeToolTip": "QLTV\\Models\\QLTVContext.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T09:34:43.251Z",
               "EditorCaption": ""

@@ -1,22 +1,21 @@
 ﻿@model QLTV.Models.MuonTra
-
 @{
-    ViewBag.Title = "Thêm Mượn Trả Sách";
+    ViewBag.Title = "Cập Nhật Mượn Trả";
 }
 
-<h2>Thêm Mượn Trả Sách</h2>
+<h2>Cập Nhật Mượn Trả</h2>
 
-@if (ViewBag.ThongBao != null)
+@if (TempData["ThongBaoSua"] != null)
 {
-    <div class="alert alert-danger">
-        @ViewBag.ThongBao
+    <div class="alert alert-success">
+        @TempData["ThongBaoSua"]
     </div>
 }
 
-<form asp-action="ThemMuonTra" method="post">
+<form asp-action="CapNhatMuonTra" method="post">
     <div class="form-group">
         <label for="MaMuonTra">Mã Mượn Trả</label>
-        <input type="text" asp-for="MaMuonTra" class="form-control" />
+        <input type="text" asp-for="MaMuonTra" class="form-control" readonly />
         <span asp-validation-for="MaMuonTra" class="text-danger"></span>
     </div>
 
@@ -50,8 +49,7 @@
         <span asp-validation-for="NgayTra" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Thêm Mượn Trả</button>
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
 </form>
 
-<!-- Link back to the list page -->
-<a href="@Url.Action("DanhSachMuonTra")" class="btn btn-secondary">Quay lại danh sách mượn trả</a>
+<a href="@Url.Action("DanhSachMuonTra", "Home")" class="btn btn-secondary mt-2">Quay lại danh sách</a>
